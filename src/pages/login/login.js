@@ -43,7 +43,8 @@ const Login = () => {
             className="loginInput"
             ref={password}
           />
-          <button className="loginButton" type="submit" >
+          <button className="loginButton " type="submit" >
+            {/* Login button */}
             Login
           </button>
           <span className="loginForgot">Forgot password? please contact Admin</span>
